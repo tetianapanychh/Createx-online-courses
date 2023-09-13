@@ -156,16 +156,16 @@
 /*==============================*/
 
 :root {
-  --primary: #FF3F3A;
+  --primary: #fe2e27;
   --secondary: #FFCF2D;
-  --accent: #ff4f22;
+  --accent: #fc4416;
   --bg-primary: #F4F5F6;
   --bg-secondary: #fce1db;
-  --text-primary: #424551;
-  --text-light: #787A80;
+  --text-primary: #3a3d48;
+  --text-light: #707174;
   --text-dark: #1E212C;
-  --text-ultralight: #D7DADD;
-  --text-error: #FF4242;
+  --text-ultralight: #c4c4c5;
+  --text-error: #fc3434;
 }
 
 /*==============================*/
