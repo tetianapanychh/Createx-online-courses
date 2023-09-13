@@ -4802,9 +4802,6 @@ body::after {
 
   .intro-block__container {
     padding-top: 6.25rem;
-  }
-
-  .intro-block__container {
     padding-bottom: 2.5rem;
   }
 
@@ -4818,9 +4815,6 @@ body::after {
 
   .header {
     padding-top: 0.9375rem;
-  }
-
-  .header {
     padding-bottom: 0.9375rem;
   }
 
@@ -4832,9 +4826,6 @@ body::after {
 
   .intro__container {
     padding-top: 5.625rem;
-  }
-
-  .intro__container {
     padding-bottom: 2.5rem;
   }
 
@@ -4844,9 +4835,6 @@ body::after {
 
   .about-block__container {
     padding-top: 2.1875rem;
-  }
-
-  .about-block__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4856,9 +4844,6 @@ body::after {
 
   .courses-block__container {
     padding-top: 1.875rem;
-  }
-
-  .courses-block__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4868,11 +4853,9 @@ body::after {
 
   .benefits__container {
     padding-top: 1.875rem;
-  }
-
-  .benefits__container {
     padding-bottom: 2.5rem;
   }
+
 
   .benefits__header:not(:last-child) {
     margin-bottom: 1.25rem;
@@ -4880,13 +4863,7 @@ body::after {
 
   .events-block__container {
     padding-top: 2.5rem;
-  }
-
-  .events-block__container {
     padding-bottom: 2.5rem;
-  }
-
-  .events-block__container {
     gap: 1.875rem;
   }
 
@@ -4906,9 +4883,6 @@ body::after {
 
   .team__container {
     padding-top: 2.5rem;
-  }
-
-  .team__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4918,9 +4892,6 @@ body::after {
 
   .testimonials__container {
     padding-top: 2.1875rem;
-  }
-
-  .testimonials__container {
     padding-bottom: 2.1875rem;
   }
 
@@ -4930,9 +4901,6 @@ body::after {
 
   .posts__container {
     padding-top: 2.5rem;
-  }
-
-  .posts__container {
     padding-bottom: 2.5rem;
   }
 
@@ -4942,9 +4910,6 @@ body::after {
 
   .subscribe__container {
     padding-top: 2.5rem;
-  }
-
-  .subscribe__container {
     padding-bottom: 2.5rem;
   }
 
@@ -4954,9 +4919,6 @@ body::after {
 
   .hero-about__container {
     padding-top: 5.625rem;
-  }
-
-  .hero-about__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4966,9 +4928,6 @@ body::after {
 
   .statistics-about__container {
     padding-top: 1.875rem;
-  }
-
-  .statistics-about__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4978,9 +4937,6 @@ body::after {
 
   .values-about__container {
     padding-top: 1.875rem;
-  }
-
-  .values-about__container {
     padding-bottom: 1.875rem;
   }
 
@@ -4990,9 +4946,6 @@ body::after {
 
   .directions-about__container {
     padding-top: 1.875rem;
-  }
-
-  .directions-about__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5002,9 +4955,6 @@ body::after {
 
   .process-about__container {
     padding-top: 1.875rem;
-  }
-
-  .process-about__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5014,9 +4964,6 @@ body::after {
 
   .jobs-about__container {
     padding-top: 1.875rem;
-  }
-
-  .jobs-about__container {
     padding-bottom: 2.1875rem;
   }
 
@@ -5028,9 +4975,6 @@ body::after {
 
   .team-about__container {
     padding-top: 1.875rem;
-  }
-
-  .team-about__container {
     padding-bottom: 2.1875rem;
   }
 
@@ -5044,9 +4988,6 @@ body::after {
 
   .main-courses__container {
     padding-top: 5.625rem;
-  }
-
-  .main-courses__container {
     padding-bottom: 2.5rem;
   }
 
@@ -5060,9 +5001,6 @@ body::after {
 
   .about-course__container {
     padding-top: 2.5rem;
-  }
-
-  .about-course__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5076,17 +5014,11 @@ body::after {
 
   .curator-block__container {
     padding-top: 1.875rem;
-  }
-
-  .curator-block__container {
     padding-bottom: 1.875rem;
   }
 
   .subscribe-course__container {
     padding-top: 2.5rem;
-  }
-
-  .subscribe-course__container {
     padding-bottom: 2.5rem;
   }
 
@@ -5096,9 +5028,6 @@ body::after {
 
   .form-course-block__container {
     padding-top: 1.875rem;
-  }
-
-  .form-course-block__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5108,13 +5037,7 @@ body::after {
 
   .other-courses__container {
     padding-top: 2.1875rem;
-  }
-
-  .other-courses__container {
     padding-bottom: 2.1875rem;
-  }
-
-  .other-courses__container {
     gap: 1.875rem;
   }
 
@@ -5124,9 +5047,6 @@ body::after {
 
   .steps-course__container {
     padding-top: 1.875rem;
-  }
-
-  .steps-course__container {
     padding-bottom: 2.5rem;
   }
 
@@ -5140,9 +5060,6 @@ body::after {
 
   .info-block__container {
     padding-top: 1.875rem;
-  }
-
-  .info-block__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5160,9 +5077,6 @@ body::after {
 
   .main-blog__container {
     padding-top: 5.625rem;
-  }
-
-  .main-blog__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5172,17 +5086,11 @@ body::after {
 
   .post__subscribe .subscribe-course__container {
     margin-top: 1.875rem;
-  }
-
-  .post__subscribe .subscribe-course__container {
     margin-bottom: 0.9375rem;
   }
 
   .hero-post__container {
     padding-top: 5.625rem;
-  }
-
-  .hero-post__container {
     padding-bottom: 0.9375rem;
   }
 
@@ -5196,9 +5104,6 @@ body::after {
 
   .info-contacts__container {
     padding-top: 5.625rem;
-  }
-
-  .info-contacts__container {
     padding-bottom: 1.875rem;
   }
 
@@ -5212,25 +5117,16 @@ body::after {
 
   .message-block__container {
     padding-top: 1.875rem;
-  }
-
-  .message-block__container {
     padding-bottom: 2.1875rem;
   }
 
   .main-events__container {
     padding-top: 5.625rem;
-  }
-
-  .main-events__container {
     padding-bottom: 2.1875rem;
   }
 
   .footer__container_top {
     padding-top: 2.1875rem;
-  }
-
-  .footer__container_top {
     padding-bottom: 1.5625rem;
   }
 
