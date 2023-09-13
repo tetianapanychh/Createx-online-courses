@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contacts</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230913185439">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a aria-label="Link to the mail page" href="index.html" class="header__logo">
+					<img src="img/logo.svg" alt="Createx logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="about.html" class="menu__link">About us</a>
+							</li>
+							<li class="menu__item">
+								<a href="courses.html" class="menu__link">Courses</a>
+							</li>
+							<li class="menu__item">
+								<a href="events.html" class="menu__link">Events</a>
+							</li>
+							<li class="menu__item">
+								<a href="blog.html" class="menu__link">Blog</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<button data-popup="#popup-login" aria-label="Log in / Register" type="button" class="header__account _icon-account"><span>Log in /
+							Register</span></button>
+					<button aria-label="Open/Close the menu" type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="contacts">
+			<section class="contacts__info info-contacts">
+				<div class="info-contacts__container">
+					<div class="info-contacts__content">
+						<div class="info-contacts__header header-block">
+							<div class="header-block__label label">Contact info</div>
+							<h2 class="header-block__title title title_medium">Get in touch</h2>
+						</div>
+						<ul class="info-contacts__list">
+							<li class="info-contacts__item">
+								<img src="img/contact/chat-icon.svg" class="info-contacts__icon">
+								<div class="info-contacts__title">Talk to us:</div>
+								<a href="mailto:hello@createx.com" class="info-contacts__link">hello@createx.com</a>
+							</li>
+							<li class="info-contacts__item">
+								<img src="img/contact/phone-icon.svg" class="info-contacts__icon">
+								<div class="info-contacts__title">Call us:</div>
+								<a href="tel:4055550128" class="info-contacts__link">(405) 555-0128</a>
+							</li>
+							<li class="info-contacts__item">
+								<img src="img/contact/address.svg" class="info-contacts__icon">
+								<div class="info-contacts__title">Address:</div>
+								<a href="#" class="info-contacts__link">2464 Royal Ln. Mesa, New Jersey 45463, USA</a>
+							</li>
+						</ul>
+						<div class="info-contacts__social-block">
+							<div class="info-contacts__label label">Follow us:</div>
+							<ul class="info-contacts__social-list social">
+								<li class="social__item">
+									<a aria-label="Link to facebook account" href="#" class="social__link _icon-facebook"></a>
+								<li class="social__item">
+									<a aria-label="Link to twitter account" href="#" class="social__link _icon-twitter"></a>
+								</li>
+								<li class="social__item">
+									<a aria-label="Link to youtube chanel" href="#" class="social__link _icon-youtube"></a>
+								</li>
+								<li class="social__item">
+									<a aria-label="Link to telegram" href="#" class="social__link _icon-telegram"></a>
+								</li>
+								<li class="social__item">
+									<a aria-label="Link to instagram account" href="#" class="social__link _icon-instagram"></a>
+								</li>
+								<li class="social__item">
+									<a aria-label="Link to linkedin account" href="#" class="social__link _icon-linkedin"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="info-contacts__map">
+						<picture><source srcset="img/contact/map.webp" type="image/webp"><img src="img/contact/map.jpg" alt="Image of map"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="contacts__message message-block form-course-block">
+				<div class="message-block__container">
+					<div class="message-block__image">
+						<img src="img/contact/illustration.svg" alt="Illustartion">
+					</div>
+					<div class="message-block__content">
+						<div class="form-course-block__header header-block">
+							<div class="header-block__label label">Any questions?</div>
+							<h2 class="header-block__title title title_medium">Drop us a line</h2>
+						</div>
+						<form action="#" class="form-course-block__form form-course form-course_2-columns">
+							<div class="form-course__item">
+								<label class="form-course__label" for="i-1">
+									First Name*
+								</label>
+								<div class="form-course__input input">
+									<input data-required id="i-1" autocomplete="off" type="text" name="form[]" placeholder="Your first name">
+								</div>
+							</div>
+							<div class="form-course__item">
+								<label class="form-course__label" for="i-2">
+									Last Name*
+								</label>
+								<div class="form-course__input input">
+									<input data-required="email" id="i-2" autocomplete="off" type="text" name="form[]" placeholder="Your last name">
+								</div>
+							</div>
+							<div class="form-course__item">
+								<label class="form-course__label" for="i-3">
+									Email*
+								</label>
+								<div class="form-course__input input">
+									<input data-required="email" id="i-3" autocomplete="off" type="text" name="form[]" placeholder="Your working email">
+								</div>
+							</div>
+							<div class="form-course__item">
+								<label class="form-course__label" for="i-4">
+									Phone
+								</label>
+								<div class="form-course__input input">
+									<input id="i-4" autocomplete="off" type="text" name="form[]" placeholder="Your phone number">
+								</div>
+							</div>
+							<div class="form-course__item form-course__item_large">
+								<label class="form-course__label" for="i-5">
+									Message*
+								</label>
+								<div class="form-course__textarea input">
+									<textarea id="i-5" placeholder="Your phone number"></textarea>
+								</div>
+							</div>
+							<div class="form-course__checkbox checkbox">
+								<input id="i-6" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="i-6" class="checkbox__label checkbox__label_top"><span class="checkbox__text">I
+										agree to receive communications from Createx Online School</span></label>
+							</div>
+							<button type="submit" class="form-course__button button button_solid button_large">Join the
+								course</button>
+						</form>
+					</div>
+				</div>
+				<div class="form-course-block__icons icons">
+					<img src="img/arrows-light.svg" alt="Icon" class="form-course-block__icon">
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container footer__container_top">
+				<div class="footer__column">
+					<a aria-label="Scroll to the start" data-goto="main" href="#" class="footer__logo"><img src="img/footer/logo.svg" alt="Createx logo"></a>
+					<div class="footer__text text">
+						<p>
+							Createx Online School is a leader in online studying. We have lots of courses and programs from the
+							main market experts. We provide relevant approaches to online learning, internships and employment
+							in the largest companies in the country.
+						</p>
+					</div>
+					<ul class="footer__social social">
+						<li class="social__item">
+							<a aria-label="Link to our facebook account" href="#" class="social__link _icon-facebook"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our twitter account" href="#" class="social__link _icon-twitter"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our youtube chanel" href="#" class="social__link _icon-youtube"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our telegram account" href="#" class="social__link _icon-telegram"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our instagram account" href="#" class="social__link _icon-instagram"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our linkedin account" href="#" class="social__link _icon-linkedin"></a>
+						</li>
+					</ul>
+				</div>
+				<nav data-one-spoller data-spollers="991.98,max" class="footer__column footer__column_nav">
+					<details class="footer__menu">
+						<summary class="footer__title">Site map</summary>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="about.html" class="footer__link">About us</a>
+							</li>
+							<li class="footer__item">
+								<a href="courses.html" class="footer__link">Courses</a>
+							</li>
+							<li class="footer__item">
+								<a href="events.html" class="footer__link">Events</a>
+							</li>
+							<li class="footer__item">
+								<a href="blog.html" class="footer__link">Blog</a>
+							</li>
+							<li class="footer__item">
+								<span class="footer__link footer__link_current">Contacts</span>
+							</li>
+						</ul>
+					</details>
+					<details class="footer__menu">
+						<summary class="footer__title">CONTACT US</summary>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="tel:4055550128" class="footer__link footer__link_icon _icon-phone">(405) 555-0128</a>
+							</li>
+							<li class="footer__item">
+								<a href="mailto:hello@createx.com" class="footer__link footer__link_icon _icon-email">hello@createx.com</a>
+							</li>
+						</ul>
+					</details>
+				</nav>
+				<div class="footer__column">
+					<div class="footer__title">SIGN UP TO OUR NEWSLETTER</div>
+					<form action="#" class="footer__form form-footer">
+						<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Email address" class="form-footer__input">
+						<button aria-label="Button submit" type="submit" class="form-footer__button _icon-arrow"></button>
+					</form>
+					<div class="footer__text">
+						*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container footer__container_bottom">
+					<div class="footer__copy">© All rights reserved. Made by Createx Studio </div>
+					<button data-goto="main" class="footer__go-top _icon-arrow-down">Go to top</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 1s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+			}
+
+			.fls-preloader {
+				pointer-events: none;
+				z-index: -1;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #ffffff;
+			}
+
+			.fls-preloader__body {
+				padding: 0.93rem;
+				max-width: 30rem;
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				const preloaderTemplate = `
+				<div class="fls-preloader">
+					<div class="fls-preloader__body">
+					<img class="fls-preloader__icon" src="img/logo.svg">
+					</div>
+				</div>`;
+
+				document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+				const preloader = document.querySelector('.fls-preloader');
+				const htmlDocument = document.documentElement;
+
+				htmlDocument.classList.add('loading');
+				htmlDocument.classList.add('lock');
+
+				window.addEventListener('load', function() {
+					setTimeout(() => {
+						preloader.remove();
+						preloaderContainer.remove();
+						addLoadedClass();
+					}, 500);
+				});
+
+				function addLoadedClass() {
+					htmlDocument.classList.add('loaded');
+					htmlDocument.classList.remove('lock');
+					htmlDocument.classList.remove('loading');
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<div id="popup-login" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Log in
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Log in to your account using email and password provided during registration.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-1" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input data-required="email" id="in-1" autocomplete="off" type="email" name="form[]" placeholder="Your email...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-2" class="form-login__label">
+								Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-2" autocomplete="off" type="password" name="form[]" placeholder="Your password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__line">
+							<div class="form-login__checkbox checkbox">
+								<input class="checkbox__input" checked type="checkbox" name="remember" id="in-3">
+								<label class="checkbox__label" for="in-3">Remember me</label>
+							</div>
+							<a href="#" class="form-login__link">
+								Forgot password?
+							</a>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Log in</button>
+					</form>
+					<div class="popup-login__signup">
+						Don't have an account? <button data-popup="#popup-signup">Sign up</button>
+					</div>
+					<div class="popup-login__social social-popup">
+						<div class="social-popup__text">
+							Or log in with
+						</div>
+						<ul class="social-popup__list social">
+							<li class="social__item">
+								<a href="#" class="social__link _icon-facebook"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-twitter"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================= -->
+	<div id="popup-signup" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Sign up
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Registration takes less than a minute but gives you full control over your studying.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-4" class="form-login__label">
+								Full Name
+							</label>
+							<div class="form-login__input input">
+								<input id="in-4" data-required autocomplete="off" type="text" name="form[]" placeholder="Your full name...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-5" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input id="in-5" data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Your email...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-6" class="form-login__label">
+								Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-6" autocomplete="off" type="password" name="form[]" placeholder="Your password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-7" class="form-login__label">
+								Confirm Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-7" autocomplete="off" type="password" name="form[]" placeholder="Confirm password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__checkbox checkbox">
+							<input class="checkbox__input" checked type="checkbox" name="remember" id="in-8">
+							<label class="checkbox__label" for="in-8">Remember me</label>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Sign up</button>
+					</form>
+					<div class="popup-login__signup">
+						Already have an account? <button data-popup="#popup-login">Log in</button>
+					</div>
+					<div class="popup-login__social social-popup">
+						<div class="social-popup__text">
+							Or log in with
+						</div>
+						<ul class="social-popup__list social">
+							<li class="social__item">
+								<a href="#" class="social__link _icon-facebook"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-twitter"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================= -->
+	<div id="popup-info" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Write your personal information
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Our manager call you back as soon as possible.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-9" class="form-login__label">
+								Full Name
+							</label>
+							<div class="form-login__input input">
+								<input id="in-9" data-required autocomplete="off" type="text" name="form[]" placeholder="Your full name*">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-10" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input id="in-10" data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Your email*">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-11" class="form-login__label">
+								Phone number
+							</label>
+							<div class="form-login__input input">
+								<input id="in-11" data-required autocomplete="off" type="text" name="form[]" placeholder="Your phone number*">
+							</div>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230913185439"></script>
+</body>
+
+</html>

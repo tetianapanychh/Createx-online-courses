@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Courses</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230913185439">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a aria-label="Link to the main page" href="index.html" class="header__logo">
+					<img src="img/logo.svg" alt="Createx logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="about.html" class="menu__link">About us</a>
+							</li>
+							<li class="menu__item">
+								<span class="menu__link menu__link_current">Courses</span>
+							</li>
+							<li class="menu__item">
+								<a href="events.html" class="menu__link">Events</a>
+							</li>
+							<li class="menu__item">
+								<a href="blog.html" class="menu__link">Blog</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto=".subscribe" data-goto-header href="#" class="menu__link">Subscribe</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions">
+					<a data-da=".menu__list,767.98" href="contacts.html" class="header__button button button_large button_solid">Get consultation</a>
+					<button data-popup="#popup-login" aria-label="Log in / Register" type="button" class="header__account _icon-account"><span>Log in /
+							Register</span></button>
+					<button aria-label="Open/Close menu" type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="courses">
+			<section class="courses__main main-courses">
+				<div class="main-courses__container">
+					<div class="main-courses__header header-block">
+						<div class="header-block__label label">Enjoy your studying!</div>
+						<h1 class="header-block__title title title_medium">Our online courses</h1>
+					</div>
+					<div class="main-courses__body">
+						<nav class="main-courses__navigation">
+							<div class="main-courses__buttons">
+								<button type="button" data-filter="*" class="main-courses__button active">All</button>
+								<button type="button" data-filter=".marketing" class="main-courses__button">Marketing</button>
+								<button type="button" data-filter=".management" class="main-courses__button">Management</button>
+								<button type="button" data-filter=".hr" class="main-courses__button">HR & Recruting</button>
+								<button type="button" data-filter=".design" class="main-courses__button">Design</button>
+								<button type="button" data-filter=".development" class="main-courses__button">Development</button>
+							</div>
+							<form action="#" class="main-courses__form search-form">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Search" class="search-form__input">
+								<button aria-label="Search button" type="submit" class="search-form__button _icon-search"></button>
+							</form>
+						</nav>
+						<div class="main-courses__items items-search">
+							<article class="main-courses__item item-course item-course_vertical marketing item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-1.webp" type="image/webp"><img src="img/courses/course-1.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_marketing">
+										Marketing
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">The Ultimate Google Ads Training
+											Course</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$100</div>
+										<div class="item-course__speaker">by Jerome Bell</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical management item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-2.webp" type="image/webp"><img src="img/courses/course-2.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_management">
+										Management
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Product Management Fundamentals</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$480</div>
+										<div class="item-course__speaker">by Marvin McKinney</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical hr item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-3.webp" type="image/webp"><img src="img/courses/course-3.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_hr">
+										HR & Recruting
+									</div>
+									<h4 class="item-course__title item-search__title  title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">HR Management and Analytics</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$200</div>
+										<div class="item-course__speaker">by Leslie Alexander Li</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical marketing item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-4.webp" type="image/webp"><img src="img/courses/course-4.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_marketing">
+										Marketing
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Brand Management & PR Communications</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$530</div>
+										<div class="item-course__speaker">by Kristin Watson</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical design item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-5.webp" type="image/webp"><img src="img/courses/course-5.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_design">
+										Design
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Graphic Design Basic</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$500</div>
+										<div class="item-course__speaker">by Guy Hawkins</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical management item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-6.webp" type="image/webp"><img src="img/courses/course-6.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_management">
+										Management
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Business Development Management</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$400</div>
+										<div class="item-course__speaker">by Dianne Russell</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical development item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-7.webp" type="image/webp"><img src="img/courses/course-7.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_development">
+										Development
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Highload Software Architecture</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$600</div>
+										<div class="item-course__speaker">by Brooklyn Simmons</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical hr item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-8.webp" type="image/webp"><img src="img/courses/course-8.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_hr">
+										HR & Recruting
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">Human Resources – Selection and Recruitment</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$150</div>
+										<div class="item-course__speaker">by Kathryn Murphys</div>
+									</div>
+								</div>
+							</article>
+							<article class="main-courses__item item-course item-course_vertical design item-search">
+								<a href="course.html" class="item-course__image-ibg" aria-label="Link to the course page">
+									<picture><source srcset="img/courses/course-9.webp" type="image/webp"><img src="img/courses/course-9.jpg" alt="Speaker of the course"></picture>
+								</a>
+								<div class="item-course__body">
+									<div class="item-course__label item-course__label_design">
+										Design
+									</div>
+									<h4 class="item-course__title item-search__title title title_ultrasmall">
+										<a class="item-course__title-link" href="course.html">User Experience. Human-centered Design</a>
+									</h4>
+									<div class="item-course__info">
+										<div class="item-course__price">$240</div>
+										<div class="item-course__speaker">by Cody Fisher</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+				<div class="main-courses__icons icons">
+					<img src="img/semicircles.svg" alt="Icon" class="main-courses__icon main-courses__icon_1">
+					<img src="img/dots.svg" alt="Icon" class="main-courses__icon main-courses__icon_2">
+					<img src="img/arrows.svg" alt="Icon" class="main-courses__icon main-courses__icon_3">
+				</div>
+			</section>
+			<section class="courses__testimonials testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__header header-block">
+						<div class="header-block__label label">TESTIMONIALS</div>
+						<h2 class="header-block__title title title_medium">What our students say</h2>
+					</div>
+					<div class="testimonials__content">
+						<div class="testimonials__slider swiper">
+							<div class="testimonials__buttons">
+								<button aria-label="Button to the previous slide" type="button" class="testimonials__button testimonials__button_prev arrow-button _icon-arrow"></button>
+								<button aria-label="Button to the next slide" type="button" class="testimonials__button testimonials__button_next arrow-button _icon-arrow"></button>
+							</div>
+							<div class="testimonials__wrapper swiper-wrapper">
+								<div class="testimonials__slide item-testimonial swiper-slide">
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus
+												lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare
+												turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu
+												diam maecenas diam integer in.
+											</p>
+										</div>
+										<div class="item-testimonial__user">
+											<div class="item-testimonial__avatar">
+												<picture><source srcset="img/homepage/testimonials/avatar.webp" type="image/webp"><img src="img/homepage/testimonials/avatar.jpg" alt="Photo of the user"></picture>
+											</div>
+											<div class="item-testimonial__name">Eleanor Pena</div>
+											<div class="item-testimonial__position">Position, Course</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonials__slide item-testimonial swiper-slide">
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus
+												lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare
+												turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu
+												diam maecenas diam integer in.
+											</p>
+										</div>
+										<div class="item-testimonial__user">
+											<div class="item-testimonial__avatar">
+												<picture><source srcset="img/homepage/testimonials/avatar.webp" type="image/webp"><img src="img/homepage/testimonials/avatar.jpg" alt="Photo of the user"></picture>
+											</div>
+											<div class="item-testimonial__name">Eleanor Pena</div>
+											<div class="item-testimonial__position">Position, Course</div>
+										</div>
+									</div>
+								</div>
+								<div class="testimonials__slide item-testimonial swiper-slide">
+									<div class="item-testimonial__body">
+										<div class="item-testimonial__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus
+												lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare
+												turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu
+												diam maecenas diam integer in.
+											</p>
+										</div>
+										<div class="item-testimonial__user">
+											<div class="item-testimonial__avatar">
+												<picture><source srcset="img/homepage/testimonials/avatar.webp" type="image/webp"><img src="img/homepage/testimonials/avatar.jpg" alt="Photo of the user"></picture>
+											</div>
+											<div class="item-testimonial__name">Eleanor Pena</div>
+											<div class="item-testimonial__position">Position, Course</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="courses__certificate certificate">
+				<div class="certificate__container">
+					<div class="certificate__content">
+						<div class="certificate__header header-block">
+							<div class="header-block__label label">Createx Certificate</div>
+							<h2 class="header-block__title title title_medium">Your expertise will be confirmed</h2>
+						</div>
+						<div class="certificate__text text">
+							<p>
+								We are accredited by international professional organizations and institutes:
+							</p>
+						</div>
+						<div class="certificate__logos logos-block">
+							<picture><source srcset="img/homepage/certificate/logo-1.webp" type="image/webp"><img class="logos-block__logo" src="img/homepage/certificate/logo-1.png" alt="Logo of Del Mar Strategy"></picture>
+							<picture><source srcset="img/homepage/certificate/logo-2.webp" type="image/webp"><img class="logos-block__logo" src="img/homepage/certificate/logo-2.png" alt="Logo of Sentinal Consulting"></picture>
+							<picture><source srcset="img/homepage/certificate/logo-3.webp" type="image/webp"><img class="logos-block__logo" src="img/homepage/certificate/logo-3.png" alt="Logo of National"></picture>
+						</div>
+					</div>
+					<div class="certificate__image">
+						<picture><source srcset="img/homepage/certificate/certificate.webp" type="image/webp"><img src="img/homepage/certificate/certificate.png" alt="Image of certificate"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="courses__subscribe subscribe">
+				<img class="subscribe__image" src="img/subscribe/illustration.svg" alt="Illustration">
+				<div class="subscribe__container">
+					<div class="subscribe__header header-block">
+						<div class="header-block__label label">Don’t miss anything</div>
+						<h2 class="header-block__title title title_medium">Subscribe to the Createx School announcements</h2>
+					</div>
+					<form action="#" class="subscribe__form">
+						<div class="subscribe__input input">
+							<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Your working email">
+						</div>
+						<button type="submit" class="subscribe__button button button_solid button_large">Subscribe</button>
+					</form>
+				</div>
+				<img class="subscribe__image" src="img/subscribe/illustration.svg" alt="Illustration">
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container footer__container_top">
+				<div class="footer__column">
+					<a aria-label="Scroll to the start" data-goto="main" href="#" class="footer__logo"><img src="img/footer/logo.svg" alt="Createx logo"></a>
+					<div class="footer__text text">
+						<p>
+							Createx Online School is a leader in online studying. We have lots of courses and programs from the
+							main market experts. We provide relevant approaches to online learning, internships and employment
+							in the largest companies in the country.
+						</p>
+					</div>
+					<ul class="footer__social social">
+						<li class="social__item">
+							<a aria-label="Link to our facebook account" href="#" class="social__link _icon-facebook"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our twitter account" href="#" class="social__link _icon-twitter"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our youtube chanel" href="#" class="social__link _icon-youtube"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our telegram account" href="#" class="social__link _icon-telegram"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our instagram account" href="#" class="social__link _icon-instagram"></a>
+						</li>
+						<li class="social__item">
+							<a aria-label="Link to our linkedin account" href="#" class="social__link _icon-linkedin"></a>
+						</li>
+					</ul>
+				</div>
+				<nav data-one-spoller data-spollers="991.98,max" class="footer__column footer__column_nav">
+					<details class="footer__menu">
+						<summary class="footer__title">Site map</summary>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="about.html" class="footer__link">About us</a>
+							</li>
+							<li class="footer__item">
+								<span class="footer__link footer__link_current">Courses</span>
+							</li>
+							<li class="footer__item">
+								<a href="events.html" class="footer__link">Events</a>
+							</li>
+							<li class="footer__item">
+								<a href="blog.html" class="footer__link">Blog</a>
+							</li>
+							<li class="footer__item">
+								<a href="contacts.html" class="footer__link">Contacts</a>
+							</li>
+						</ul>
+					</details>
+					<details class="footer__menu">
+						<summary class="footer__title">CONTACT US</summary>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="tel:4055550128" class="footer__link footer__link_icon _icon-phone">(405) 555-0128</a>
+							</li>
+							<li class="footer__item">
+								<a href="mailto:hello@createx.com" class="footer__link footer__link_icon _icon-email">hello@createx.com</a>
+							</li>
+						</ul>
+					</details>
+				</nav>
+				<div class="footer__column">
+					<div class="footer__title">SIGN UP TO OUR NEWSLETTER</div>
+					<form action="#" class="footer__form form-footer">
+						<input data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Email address" class="form-footer__input">
+						<button aria-label="Button submit" type="submit" class="form-footer__button _icon-arrow"></button>
+					</form>
+					<div class="footer__text">
+						*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container footer__container_bottom">
+					<div class="footer__copy">© All rights reserved. Made by Createx Studio </div>
+					<button data-goto="main" class="footer__go-top _icon-arrow-down">Go to top</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 1s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+			}
+
+			.fls-preloader {
+				pointer-events: none;
+				z-index: -1;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #ffffff;
+			}
+
+			.fls-preloader__body {
+				padding: 0.93rem;
+				max-width: 30rem;
+				display: flex;
+				flex-direction: column;
+			}
+		</style>
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				const preloaderTemplate = `
+				<div class="fls-preloader">
+					<div class="fls-preloader__body">
+					<img class="fls-preloader__icon" src="img/logo.svg">
+					</div>
+				</div>`;
+
+				document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+				const preloader = document.querySelector('.fls-preloader');
+				const htmlDocument = document.documentElement;
+
+				htmlDocument.classList.add('loading');
+				htmlDocument.classList.add('lock');
+
+				window.addEventListener('load', function() {
+					setTimeout(() => {
+						preloader.remove();
+						preloaderContainer.remove();
+						addLoadedClass();
+					}, 500);
+				});
+
+				function addLoadedClass() {
+					htmlDocument.classList.add('loaded');
+					htmlDocument.classList.remove('lock');
+					htmlDocument.classList.remove('loading');
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<div id="popup-login" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Log in
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Log in to your account using email and password provided during registration.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-1" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input data-required="email" id="in-1" autocomplete="off" type="email" name="form[]" placeholder="Your email...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-2" class="form-login__label">
+								Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-2" autocomplete="off" type="password" name="form[]" placeholder="Your password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__line">
+							<div class="form-login__checkbox checkbox">
+								<input class="checkbox__input" checked type="checkbox" name="remember" id="in-3">
+								<label class="checkbox__label" for="in-3">Remember me</label>
+							</div>
+							<a href="#" class="form-login__link">
+								Forgot password?
+							</a>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Log in</button>
+					</form>
+					<div class="popup-login__signup">
+						Don't have an account? <button data-popup="#popup-signup">Sign up</button>
+					</div>
+					<div class="popup-login__social social-popup">
+						<div class="social-popup__text">
+							Or log in with
+						</div>
+						<ul class="social-popup__list social">
+							<li class="social__item">
+								<a href="#" class="social__link _icon-facebook"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-twitter"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================= -->
+	<div id="popup-signup" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Sign up
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Registration takes less than a minute but gives you full control over your studying.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-4" class="form-login__label">
+								Full Name
+							</label>
+							<div class="form-login__input input">
+								<input id="in-4" data-required autocomplete="off" type="text" name="form[]" placeholder="Your full name...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-5" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input id="in-5" data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Your email...">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-6" class="form-login__label">
+								Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-6" autocomplete="off" type="password" name="form[]" placeholder="Your password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-7" class="form-login__label">
+								Confirm Password
+							</label>
+							<div class="form-login__input form-login__input_pass input">
+								<input id="in-7" autocomplete="off" type="password" name="form[]" placeholder="Confirm password...">
+								<button aria-label="Show/Hide password" class="form-login__viewpass _icon-show-password" type="button"></button>
+							</div>
+						</div>
+						<div class="form-login__checkbox checkbox">
+							<input class="checkbox__input" checked type="checkbox" name="remember" id="in-8">
+							<label class="checkbox__label" for="in-8">Remember me</label>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Sign up</button>
+					</form>
+					<div class="popup-login__signup">
+						Already have an account? <button data-popup="#popup-login">Log in</button>
+					</div>
+					<div class="popup-login__social social-popup">
+						<div class="social-popup__text">
+							Or log in with
+						</div>
+						<ul class="social-popup__list social">
+							<li class="social__item">
+								<a href="#" class="social__link _icon-facebook"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-twitter"></a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link _icon-linkedin"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================= -->
+	<div id="popup-info" aria-hidden="true" class="popup popup-login">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<button aria-label="Close" data-close type="button" class="popup__close _icon-close"></button>
+				</div>
+				<div class="popup-login__body">
+					<div class="popup-login__title title title_small">
+						Write your personal information
+					</div>
+					<div class="popup-login__text">
+						<p>
+							Our manager call you back as soon as possible.
+						</p>
+					</div>
+					<form action="#" class="popup-login__form form-login">
+						<div class="form-login__item">
+							<label for="in-9" class="form-login__label">
+								Full Name
+							</label>
+							<div class="form-login__input input">
+								<input id="in-9" data-required autocomplete="off" type="text" name="form[]" placeholder="Your full name*">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-10" class="form-login__label">
+								Email
+							</label>
+							<div class="form-login__input input">
+								<input id="in-10" data-required="email" autocomplete="off" type="text" name="form[]" placeholder="Your email*">
+							</div>
+						</div>
+						<div class="form-login__item">
+							<label for="in-11" class="form-login__label">
+								Phone number
+							</label>
+							<div class="form-login__input input">
+								<input id="in-11" data-required autocomplete="off" type="text" name="form[]" placeholder="Your phone number*">
+							</div>
+						</div>
+						<button type="submit" class="form-login__button button button_solid button_large">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230913185439"></script>
+</body>
+
+</html>
